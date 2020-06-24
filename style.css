@@ -352,6 +352,9 @@ color: honeydew;
     opacity:0.81;
 }
 
+#client-img img{
+    height:400px;
+}
 
 /* Contact us section*/
 
