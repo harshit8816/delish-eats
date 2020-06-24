@@ -64,7 +64,6 @@ html{
 #navbar ul li a{
     color:whitesmoke;
     display: block;
-    /* border: 2px solid black; */
     border-radius: 12px;
     font-size: 1.18rem;
     text-decoration: none;
@@ -92,7 +91,7 @@ html{
 
 #about::before{
      content:"";
-     background:url('../images/fruit-salads-in-plate.jpg') no-repeat  center/cover;
+     background:url('fruit-salads-in-plate.jpg') no-repeat  center/cover;
      width:100%;
      height:640px;
      position: absolute;
@@ -132,7 +131,7 @@ html{
 
 #menu::before{
     content:"";
-    background: url('../images/salad.jpg') no-repeat center center/cover;
+    background: url('salad.jpg') no-repeat center center/cover;
     width:100%;
     height: 900px;
     position: absolute;
@@ -233,7 +232,7 @@ color: honeydew;
 
 #order::before{
     content:"";
-    background: url('../images/fruits-bg.jpg') no-repeat center center/cover;
+    background: url('fruits-bg.jpg') no-repeat center center/cover;
     width:100%;
     height: 770px;
     position: absolute;
@@ -290,7 +289,7 @@ color: honeydew;
 
 #services::before{
     content:"";
-    background: url('../images/berries-on-black.jpg') no-repeat center center/cover;
+    background: url('berries-on-black.jpg') no-repeat center center/cover;
     width:100%;
     height: 782px;
     position: absolute;
@@ -343,7 +342,7 @@ color: honeydew;
 
 #clients::before{
     content:"";
-    background: url('../images/wood.jpg') no-repeat center center/cover;
+    background: url('wood.jpg') no-repeat center center/cover;
     width:100%;
     height: 460px;
     position: absolute;
@@ -364,7 +363,7 @@ color: honeydew;
 
 #contact::before{
     content: "";
-    background: url('../images/pancake.jpg') no-repeat center center/cover;
+    background: url('pancake.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0px;
     width: 100%;
@@ -413,14 +412,3 @@ color: honeydew;
     position: relative;
     bottom: 0px; 
 }
-
-
-
-/* 
-@media only screen and (min-width:750px) and(max-width:1300px){
-    .menu-box img{
-        width:90%;
-        height: auto;
-        margin-bottom: 6px;
-    }
-} */
