@@ -47,7 +47,10 @@
 }
 
 #menu::before{
+    background-color: rgb(112, 148, 150);
+    background-image: none;
     height: 3860px;
+    z-index: -1;
 }
 
 /* Services */
